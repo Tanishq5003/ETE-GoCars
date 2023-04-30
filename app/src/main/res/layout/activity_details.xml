@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFE1AF"
+    tools:context=".Details">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/imgswift"
+            android:layout_height="150dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/nmeswift"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:text="Model"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@+id/imgswift"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milage: "
+                android:textSize="20dp"
+                android:id="@+id/textMilage"
+                android:textStyle="bold"
+                android:layout_below="@id/nmeswift"
+                android:layout_toRightOf="@id/imgswift"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/milage"
+                android:text="22KMPL"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/nmeswift"
+                android:layout_toRightOf="@id/textMilage"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/costing"
+                android:layout_below="@+id/imgswift"
+                android:text="Costing: "
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/costing"
+                android:layout_below="@id/imgswift"
+                android:id="@+id/price"
+                android:text="INR 2200/Day"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sevice"
+                android:layout_below="@+id/costing"
+                android:text="service History: "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/sevice"
+                android:layout_below="@id/costing"
+
+                android:text="Last Month"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/insurance"
+                android:layout_below="@+id/sevice"
+                android:text="Insurance Valid: "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/insurance"
+                android:layout_below="@id/sevice"
+                android:text="Yes"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/><TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/sevice"
+                android:layout_below="@id/costing"
+
+                android:text="Last Month"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/puc"
+                android:layout_below="@+id/insurance"
+                android:text="PUC Valid: "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/puc"
+                android:layout_below="@id/insurance"
+                android:text="Yes"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Date"
+                android:id="@+id/from"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/puc"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To Date"
+                android:id="@+id/to"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/puc"
+                android:layout_toRightOf="@id/from"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="80dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:id="@+id/button"
+                android:textAllCaps="false"
+                android:layout_below="@id/from"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:layout_marginLeft="130dp"/>
+        </RelativeLayout>
+           </androidx.cardview.widget.CardView>
+</RelativeLayout>

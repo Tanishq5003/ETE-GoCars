@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientgreen"
+    android:layout_height="match_parent"
+    tools:context=".Checkout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:id="@+id/imgswift"
+
+        android:layout_height="150dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/nmeswift"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:text="Model"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/imgswift"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:layout_below="@id/imgswift"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/firstName"
+        android:textSize="20dp"
+        android:layout_below="@id/imgswift"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UID: "
+        android:id="@+id/uid"
+        android:textSize="20dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/userid"
+        android:textSize="20dp"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/uid"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: "
+        android:id="@+id/from1"
+        android:textSize="20dp"
+        android:layout_below="@id/uid"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/from"
+        android:textSize="20dp"
+        android:layout_below="@id/uid"
+        android:layout_toRightOf="@id/from1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To: "
+        android:id="@+id/to1"
+        android:textSize="20dp"
+        android:layout_below="@id/from"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/to"
+        android:textSize="20dp"
+        android:layout_below="@id/from"
+        android:layout_toRightOf="@id/to1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="33dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/greet"
+        android:layout_below="@id/to1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Thanks for booking your ride with GoCars!!!!
+You will soon receive an email with payment link and instructions of
+picking your Ride."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/greet1"
+        android:layout_below="@id/greet"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="You can take ScreenShot for further reference."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/greet1"
+            android:text="To Contact our customer care call us at (+91)9587602805 or
+mail us at tannu.btp.tk@gmail.com"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/care"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:text="Please rate your experience in our app"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/care"/>
+        <RatingBar
+            android:id="@+id/simpleRatingBar"
+            android:layout_below="@+id/care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="1dp"
+            android:numStars="5"
+            android:rating="1.5"
+            android:secondaryProgressTint="#D63333"
+            android:progressTint="#D63333"
+            android:progressBackgroundTint="#F4E0E0"
+            android:stepSize="0.5"
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log-out"
+        android:id="@+id/button"
+        android:layout_below="@id/simpleRatingBar"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/button"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+</ScrollView>
