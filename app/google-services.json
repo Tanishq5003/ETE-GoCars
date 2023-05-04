@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98987825453",
+    "project_id": "ete-gocars",
+    "storage_bucket": "ete-gocars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98987825453:android:e3ca488c01f0ef219b1ba4",
+        "android_client_info": {
+          "package_name": "com.example.etegocars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98987825453-ujg5midjr6s8gvdrd7t3poq08o1m903s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr74370spXj-LPQQ0mDPs6ffIJ93Dw9dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98987825453-ujg5midjr6s8gvdrd7t3poq08o1m903s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
